@@ -17,20 +17,23 @@ This is the backend for the Task Manager app built with **Node.js, Express, and 
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 2️⃣ Clone the Repository
 
 ```bash
 git clone <your-repo-url>
 cd backend
 
+###  Clone the Repository
 Install Dependencies
 npm install
 
+3️⃣ Configure Environment Variables
 Create a .env file and add:
 PORT=5000
 MONGO_URI=mongodb+srv://yourdb
 JWT_SECRET=your_secret_key
 
+4️⃣ Run the Server
 Run the Server
 npx nodemon server.js
 
